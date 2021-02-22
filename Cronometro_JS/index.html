@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronometer JS</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>Cronometro em JavaScript</h2>
+    <section class="wrapper_input">
+        <label>Insira os segundos e clique em setar: </label>
+        <input type="number" name="timeCronometer" id="time">
+        <div class="CurrentTime" id="CurrentTime"></div>
+        <input type="button" value="Iniciar!" onclick="init()">
+        <input type="button" value="parar!" onclick="stop()">
+        <input type="button" value="setar!" onclick="set()">
+    </section>
+
+    <script src="main.js"></script>    
+</body>
+</html>

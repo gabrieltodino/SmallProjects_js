@@ -1,0 +1,32 @@
+body{
+    width: 99vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+}
+
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+img{
+    opacity: 0;
+    position: absolute;
+    top: 20vh;
+    width: 45%;
+    max-height: 350px;
+    object-fit: cover;
+
+    transition: 800ms;
+}
+
+img.selected{
+    opacity: 1;
+}

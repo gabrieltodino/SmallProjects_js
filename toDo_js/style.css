@@ -1,0 +1,46 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+}
+
+.container{
+    max-width: 900px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.add_wrapper{
+    margin: 55px 0 20px 0;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 25px;
+    background-color: seashell;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.item p{
+    padding-right: 25px;
+}
+
+.item button{
+    background-color: red;
+    color: white;
+    border: none;
+    height: 100%;
+    cursor: pointer;
+}

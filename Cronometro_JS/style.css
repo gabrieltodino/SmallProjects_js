@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font: normal 20pt Arial;
+}
+
+body{
+    text-align: center;
+    padding: 20px;
+    background-color: #ddd;
+}
+
+h2{
+    margin-bottom: 15px;
+}
+
+section.wrapper_input{
+    background-color: #ccc;
+    margin: 0 auto;
+    padding: 10px;
+    border-top: 1px solid black;
+    max-width: 920px;
+}
+
+section.wrapper_input label{
+    font: lighter 16pt Arial;
+}
+
+section.wrapper_input input[type="number"]{
+    height: 25px;
+    width: 200px;
+    margin-bottom: 25px;
+    font-size: 17px;
+}
+
+section.wrapper_input input[type="button"]{
+    height: 35px;
+    width: 100px;
+    font-size: 17px;
+    margin-top: 25px;
+}
